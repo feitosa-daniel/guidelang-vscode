@@ -4,11 +4,15 @@
 
 ## Features
 
-This extension provides code highlighting for the `guidelang`.
+This extension provides code highlighting for the `guidelang`. To activate the highlighting, save your file with the `".gl"` extension or change the language mode to **Guidance Language**.
 
-![image](https://raw.githubusercontent.com/feitosa-daniel/guidelang-vscode/master/syntax-highlight.png?raw=true)
+![image](https://raw.githubusercontent.com/feitosa-daniel/guidelang-vscode/v.0.1.1/syntax-highlight.gif?raw=true)
 
 ## Release Notes
+
+### 0.1.1
+
+Explained how to activate `guidelang` on language mode.
 
 ### 0.1.0
 

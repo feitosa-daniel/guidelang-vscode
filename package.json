@@ -2,7 +2,7 @@
     "name": "guidelang-vscode",
     "displayName": "guidelang",
     "description": "Syntax highlight for the Guidance Language, a fictional language for programming your fellow humans.",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "publisher": "danielfeitosa",
     "author": {
         "name": "Daniel Feitosa"
