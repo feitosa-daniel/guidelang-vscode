@@ -1,0 +1,18 @@
+# This is a comment
+
+procedure turn_towards_wall
+    if where is <wall>? = left then
+        turn left
+    if where is <wall>? = right then
+        turn right
+    if where is <wall>? = back then
+        turn back
+
+procedure walk_towards_wall
+    if can reach <wall>? = false
+        step forward
+        go to line 1
+
+
+execute turn_towards_wall
+execute walk_towards_wall

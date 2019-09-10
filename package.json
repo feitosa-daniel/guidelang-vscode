@@ -1,0 +1,25 @@
+{
+    "name": "guidelang-vscode",
+    "displayName": "guidelang",
+    "description": "Syntax highlight for the Guidance Language, a fictional language for programming your fellow humans.",
+    "version": "0.1.0",
+    "engines": {
+        "vscode": "^1.38.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "guidelang",
+            "aliases": ["Guidance Language", "guidelang"],
+            "extensions": [".gl"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "guidelang",
+            "scopeName": "source.guidelang",
+            "path": "./syntaxes/guidelang.tmLanguage.json"
+        }]
+    }
+}

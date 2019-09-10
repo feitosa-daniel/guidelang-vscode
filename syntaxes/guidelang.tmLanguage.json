@@ -1,0 +1,60 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Guidance Language",
+	"patterns": [
+		{
+			"include": "#comments"
+		},
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#procedures"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#numbers"
+		}
+	],
+	"repository": {
+		"comments": {
+			"name": "comment.line.number-sign.guidelang",
+			"match": "^# .*$"
+		},
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.guidelang",
+				"match": "\\b(step|turn|grab|go to|line|if|then)\\b"
+			},{
+				"name": "constant.character.set.regexp.guidelang",
+				"match": "\\b(can see|can reach|where is)\\b"
+			},{
+				"name": "keyword.value.guidelang",
+				"match": "\\b([Tt]rue|[Ff]alse|[Ll]eft|[Rr]ight|[Ff]ront|[Bb]ack|[Ff]orward|[Uu]nknown)\\b"
+			},{
+				"name": "keyword.operator.arithmetic.guidelang",
+				"match": "\\b(=|\\?)\\b"
+			}]
+		},
+		"procedures": {
+			"name": "meta.procedure.guidelang",
+			"captures": {
+				"1": { "name": "keyword.control.guidelang" },
+				"2": { "name": "entity.name.function.guidelang" }
+			},
+			"match": "\\b(procedure|execute) ([a-zA-Z][a-zA-Z0-9_]*)\\b"
+		},
+		"strings": {
+			"name": "string.quoted.double.guidelang",
+			"begin": "<",
+			"end": ">"
+		},
+		"numbers": {
+			"name": "constant.numeric.guidelang",
+			"match": "\\b([0-9]+)\\b"
+		}
+	},
+	"scopeName": "source.guidelang"
+}
