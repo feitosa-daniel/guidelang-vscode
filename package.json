@@ -3,6 +3,7 @@
     "displayName": "guidelang",
     "description": "Syntax highlight for the Guidance Language, a fictional language for programming your fellow humans.",
     "version": "0.1.0",
+    "publisher": "danielfeitosa",
     "engines": {
         "vscode": "^1.38.0"
     },
