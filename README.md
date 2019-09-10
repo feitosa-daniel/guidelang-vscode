@@ -1,6 +1,6 @@
-# `guidelang`
+# [`guidelang`](https://raw.githubusercontent.com/feitosa-daniel/guidelang-vscode/master/guidelang.md)
 
-`guidelang` is a very simple and fictional programming language. It is meant to be an exercise to demonstrate some basic principles of programming languages without using examples from mathematics.
+[`guidelang`](https://raw.githubusercontent.com/feitosa-daniel/guidelang-vscode/master/guidelang.md) is a very simple and fictional programming language. It is meant to be an exercise to demonstrate some basic principles of programming languages without using examples from mathematics.
 
 ## Features
 
