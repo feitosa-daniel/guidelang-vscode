@@ -6,7 +6,7 @@
 
 This extension provides code highlighting for the `guidelang`. To activate the highlighting, save your file with the `".gl"` extension or change the language mode to **Guidance Language**.
 
-![image](https://raw.githubusercontent.com/feitosa-daniel/guidelang-vscode/v.0.1.1/syntax-highlight.gif?raw=true)
+![image](https://raw.githubusercontent.com/feitosa-daniel/guidelang-vscode/v0.1.1/syntax-highlight.gif?raw=true)
 
 ## Release Notes
 
