@@ -4,6 +4,12 @@
     "description": "Syntax highlight for the Guidance Language, a fictional language for programming your fellow humans.",
     "version": "0.1.0",
     "publisher": "danielfeitosa",
+    "author": {
+        "name": "Daniel Feitosa"
+    },
+    "repository": {
+    "url": "https://github.com/feitosa-daniel/guidelang-vscode"
+    },
     "engines": {
         "vscode": "^1.38.0"
     },
